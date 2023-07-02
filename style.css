@@ -120,32 +120,33 @@ color: var(--cinza-secundario);
 }
 
 .rodape__texto {
+    margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
-    margin: 2em 0;
 }
 
 .lista__link a {
-    color: var(--branco-principal);
-    margin-left: 3em;
     text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
 }
 
 .rodape__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 15px;
+    margin-top: 1em;
 }
 
 .rodape {
     text-align: center;
-    margin: 0 3em;
+    margin: 5em 3em;
 }
 
 .rodape__logo {
     margin-bottom: 2em;
 }
+
 
 .lista__link a:hover {
     color: var(--botao-azul);
